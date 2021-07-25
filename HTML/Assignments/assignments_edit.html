@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width" />
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-3.0.0.js"></script>
+    <script src="../../Scripts/umd/popper.js"></script>
+    <script src="../../Scripts/bootstrap.js"></script>
+
+    <style>
+        @import url('../../CSS/assignment.css');
+    </style>
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-fixed-top navbar-expand-md navbar-dark">
+                    <a class="navbar-brand" href="../../Index.html">Coding Bootcamp</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="assignments.html">Edit Assignments</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="container">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <div class="mt-4 mb-0">
+                        <a class="btn btn-success" href="assignments.html">Return to Assignments</a>
+                    </div>
+                    <br />
+                    <form>
+
+                        <div class="form-group">
+
+                            <label for="Type">Type</label>
+                            <input id="Type" class="form-control" type="text" name="type" value="Individual" placeholder="Enter letters only (length must be 4-10)" autocomplete="off" required pattern="[A-Za-z]{4,10}" title="Only letters between 4 and 10 characters" />
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="Course">Course</label>
+                            <input id="Course" class="form-control" type="text" name="course" value="C#, Java, JavaScript, Python" placeholder="Enter letters or/and symbols (length must be 1-15)" autocomplete="off" required pattern="[A-Za-z+#, ]{1,15}" title="Only letters or/and symbols between 1 and 15 characters" />
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="DDate">Due Date</label>
+                            <input id="DDate" class="form-control" type="date" name="Due Date" value="2021-03-25" required min="2021-01-01" max="2021-12-31" />
+
+                        </div>
+                        <br />
+                        <button class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿.table-bordered {
+    border: 1px solid black;
+    width: 100%;
+    margin: 0 auto;
+    border-style: dotted;
+    border-collapse: collapse;
+    color: #282828;
+}
+
+    .table-bordered td, th, tr, tbody, thead {
+        text-align: center;
+        padding: 10px;
+    }
+
+body {
+    background-image: url('../images/students.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2 {
+    line-height: 2em;
+    border-radius: 10px;
+    background-color: #04ccc6;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.table > thead {
+    background-color: darkolivegreen;
+    color: #FFFFFF;
+}
+
+.table > tbody {
+    background-color: #3c7a30;
+    color: #FFFFFF;
+}
+
+    .table > tbody tr:hover {
+        background-color: #25d429;
+    }
+
+label {
+    color: #FFFFFF;
+}
+
+.navbar-fixed-top {
+    background-color: darkolivegreen;
+    top: 0;
+    border-width: 0 0 1px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}

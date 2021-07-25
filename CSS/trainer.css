@@ -1,0 +1,54 @@
+﻿.table-bordered {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    color: #282828;
+}
+
+    .table-bordered td, th, tr, tbody, thead {
+        text-align: center;
+        padding: 10px;
+    }
+
+body {
+    background-image: url('../images/trainers.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2 {
+    line-height: 2em;
+    border-radius: 10px;
+    background-color: #04ccc6;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.table > thead {
+    background-color: #0e1198;
+    color: #FFFFFF;
+}
+
+.table > tbody {
+    background-color: #1102d7;
+    color: #FFFFFF;
+}
+
+    .table > tbody tr:hover {
+        background-color: #4139fb;
+    }
+
+label {
+    color: #FFFFFF;
+}
+
+.navbar-fixed-top {
+    background-color: #0e1198;
+    top: 0;
+    border-width: 0 0 1px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
